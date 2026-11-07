@@ -8,3 +8,5 @@ venv/
 *.exe
 *.log
 .claude/settings.local.json
+*.zip
+partage/*.exe
