@@ -1,0 +1,10 @@
+.env
+__pycache__/
+build/
+dist/
+*.spec
+.venv/
+venv/
+*.exe
+*.log
+.claude/settings.local.json

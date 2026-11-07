@@ -1,0 +1,13 @@
+{
+  "_note": "Réglages de l'assistant IA. AUCUNE clé API ici : utilisez la variable d'environnement GEMINI_API_KEY ou Réglages > Assistant IA (Gestionnaire d'identification Windows). Les modèles peuvent être changés à tout moment ; la liste des modèles disponibles pour votre clé est consultable dans les réglages. Si le modèle principal est saturé, indisponible ou à court de quota, les modèles de secours sont essayés dans l'ordre.",
+  "active": true,
+  "modele": "gemini-flash-lite-latest",
+  "modeles_secours": ["gemini-flash-latest", "gemini-flash-lite-latest"],
+  "api_base": "https://generativelanguage.googleapis.com/v1beta",
+  "proxy_sans_cle": false,
+  "taille_lot": 8,
+  "delai_attente_s": 30,
+  "tentatives_max": 3,
+  "delai_relance_s": 5,
+  "pause_entre_lots_s": 4
+}

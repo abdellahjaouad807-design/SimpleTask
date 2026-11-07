@@ -1,0 +1,45 @@
+SimpleTask - gestionnaire de tâches simplifié
+=============================================
+
+LANCER
+------
+1. Dézippe le dossier où tu veux (ex. sur le Bureau).
+2. Double-clique sur SimpleTask.exe.
+   Si Windows affiche « Windows a protégé votre ordinateur » :
+   clique sur « Informations complémentaires » puis « Exécuter quand même ».
+   (C'est normal : le programme n'est pas signé par un éditeur payant.)
+
+Pas d'installation. Rien n'est envoyé sur Internet, sauf si tu utilises l'IA.
+
+
+UTILISER
+--------
+- Clique sur une ligne : SimpleTask t'explique ce que c'est et si tu peux le fermer.
+  Rouge = ne jamais fermer   Vert = peut être fermé
+  Gris  = inconnu            Orange = suspect
+- « Fin de tâche » (ou touche Suppr) : ferme l'application choisie.
+- « Libérer de la RAM » : ferme d'un coup les applis inutiles (tu choisis lesquelles).
+
+
+AJOUTER L'IA GEMINI (facultatif, gratuit)
+-----------------------------------------
+L'IA décrit les processus que SimpleTask ne connaît pas.
+
+1. Va sur https://aistudio.google.com/apikey
+   (connecte-toi avec un compte Google).
+2. Clique sur « Create API key » et copie la clé.
+3. Dans SimpleTask : Réglages > Assistant IA > colle la clé dans « Clé API »
+   > « Enregistrer la clé ».
+4. Clique sur « Tester la connexion ».
+5. Va dans « Assistant IA » > « Décrire les inconnus ».
+
+Ta clé reste sur ton PC. Ne la donne à personne.
+Les réponses de l'IA sont des suggestions : c'est toi qui confirmes.
+
+
+PROBLÈMES
+---------
+- « Gemini est surchargé » : réessaie quelques minutes plus tard.
+- « Droits administrateur nécessaires » : accepte de relancer SimpleTask
+  en administrateur pour fermer ce programme.
+- Ton antivirus bloque le programme : ajoute SimpleTask.exe aux exceptions.
